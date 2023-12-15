@@ -86,8 +86,7 @@ class RDSDatabaseConnector:
 
 
     def load_dataframe(self):
-        '''This method loads saved CSV file into Pandas DataFrame, prints DataFrame size in rows and columns, and the DataFrame
-        
+        '''This method loads saved CSV file into Pandas DataFrame, prints DataFrame size in rows and columns, and the DataFrame        
         '''
         df = pd.read_csv(Path(self.csv_file_name))
         print(f'Size of DataFrame: [{df.shape[0]} rows x {df.shape[1]} columns]\n')

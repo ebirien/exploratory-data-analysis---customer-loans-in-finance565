@@ -1,10 +1,10 @@
 # Exploratory Data Analysis - Customer Loans in Finance
 ## Project Description
-This project was undertaken for a large financial institution, where loans managiment forms a critical component of business operations.
+This project is a part of the requirements for the Aicore data analytics certification. It was undertaken for a large financial institution, where loans managiment forms a critical component of business operations.
 
 Exploratory data analysis was conducted on the loan portfolio data, with the aim of gaining a deeper understanding of the risk and return associated with the business' loans.
 
-The aim of this project is to demonstrate a working advanced knowledge of Exploratory data analysis with Pandas and Python programming language. Several python classes were created to extract data from the cloud, convert columns to the correct format, get information from the DataFrame, perform EDA transformation on the data, and remove/impute missing data.
+The aim of this project was to demonstrate a working advanced knowledge of Exploratory data analysis with Pandas and Python programming language. Several python classes were created to extract data from the cloud, convert columns to the correct format, get information from the DataFrame, perform EDA transformation on the data, remove/impute missing data, and visualise insights from the data.
 
 The project involved the following tasks:
 1. Setting up the development environment

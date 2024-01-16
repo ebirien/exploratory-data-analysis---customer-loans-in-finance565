@@ -15,6 +15,8 @@ The project involved the following tasks:
   - Created a python class for data extraction
   - Extracted the data from RDS database hosted in AWS cloud
   - Familiarised myself with the data in preparation for EDA
+  ### Screenshot of Python Data Extraction Class
+  ![Data Extraction Class](/RDSDatabaseConnector.png)
 
 3. Exploratory Data Analysis (EDA)
   - Converted columns to the correct format
@@ -24,13 +26,33 @@ The project involved the following tasks:
   - Removed outliers from the data
   - Dropped overly correlated columns
 
+  ### Screenshot of Python Data Conversion Class
+  ![Data Conversion Class](/DataTransform.png)
+  
+  ### Screenshot of Python Dataframe Info Class
+  ![Dataframe Info Class](/DataframeInfo.png)
+
+  ### Screenshot of Python Plotter Info Class
+  ![Plotter Class](/Plotter.png)
+
+  ### Screenshot of Skewness Before Transform
+  ![Skewness Before Transform](/Skewness_Before_Transform.png)
+
+  ### Screenshot of Skewness After Transform
+  ![Skewness After Transform](/Skewness_After_Transform.png)
+
+  ### Screenshot of Outliers Before Transform
+  ![Outliers Before Transform](/Outliers_Before_Transform.png)
+
+  ### Screenshot of Skewness After Transform
+  ![ouliers After Transform](/Outliers_After_Transform.png)
+
 4. Analysis and Visualisation
   - Determined the current state of the loans
   - Calculated loss
   - Calculated projected loss
   - Computed possible loss
   - Identified indicators of loss
-
 
 ## Installation Instructions
 Download the following files to a named folder in your computer.
@@ -40,6 +62,9 @@ Download the following files to a named folder in your computer.
 - data_transform.py
 - data_plotter.py
 - eda.ipynb
+
+  ### Screenshot of Total Payment vs Projected Loss Plot
+  ![Projected Loss Plot](/Projected_Loss.png)
 
 ## Usage Instructions
 To run the project simply open the eda.ipynb file with any interactive python notebook program and go through the various steps in the notebook.
